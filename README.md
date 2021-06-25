@@ -17,16 +17,16 @@ You can contribute to this site by submitting pull request.
   <a href="#">
     <img src="https://img.shields.io/badge/stages-production-informational">
   </a>
-  <a href="https://github.com/novaardiansyah/draggable-menu/blob/master/references.json">
+  <a href="https://github.com/novaardiansyah/draggable-menu/blob/main/references.json">
     <img src="https://img.shields.io/badge/information-references-informational">
   </a>
   <a href="#">
     <img src="https://img.shields.io/github/repo-size/novaardiansyah/draggable-menu?label=size&color=informational" />
   </a>
-  <a href="https://github.com/novaardiansyah/draggable-menu/blob/master/LICENSE">
+  <a href="https://github.com/novaardiansyah/draggable-menu/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/novaardiansyah/draggable-menu?label=license&color=informational" />
   </a>
-  <a href="https://github.com/novaardiansyah/draggable-menu/commits/master">
-    <img src="https://img.shields.io/github/last-commit/novaardiansyah/draggable-menu/master?color=informational" />
+  <a href="https://github.com/novaardiansyah/draggable-menu/commits/main">
+    <img src="https://img.shields.io/github/last-commit/novaardiansyah/draggable-menu/main?color=informational" />
   </a>
 </p>
