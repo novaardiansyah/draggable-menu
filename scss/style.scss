@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #30336b;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+.navigation {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+  border-radius: 4px;
+  z-index: 100000;
+  transition: height .5s, width .5s;
+  transition-delay: 0s, .75s;
+  overflow: hidden;
+  
+  &.active {
+    width: 250px;
+    height: 350px;
+  }
+  
+  .toggle {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #22a6b3;
+    transition: .5s;
+    cursor: pointer;
+    
+    &.active {
+      background-color: #eb4d4b;
+      
+      &::before {
+        transform: rotate(315deg);
+      }
+    }
+    
+    &::before {
+      content: '+';
+      position: absolute;
+      display: flex;
+      font-size: 2em;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      width: 50px;
+      font-weight: 400;
+      color: #fff;
+      transition: .5s;
+    }
+  }
+  
+  ul {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    
+    li {
+      position: relative;
+      list-style: none;
+      width: 100%;
+      
+      &:hover {
+        background-color: #22a6b3;
+      }
+      
+      &:hover .icon .fa, &:hover .title {
+        color: #fff;
+      }
+      
+      a {
+        position: relative;
+        display: flex;
+        width: 100%;
+        text-decoration: none;
+        color: #30336b;
+      }
+    }
+    
+    .icon {
+      position: relative;
+      display: block;
+      min-width: 50px;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+      
+      .fa {
+        font-size: 24px;
+        color: #30336b;
+      }
+    }
+    
+    .title {
+      position: relative;
+      display: block;
+      text-align: start;
+      line-height: 50px;
+      white-space: nowrap;
+    }
+  }
+}
+                                                                                                                                                                                                                                                                
